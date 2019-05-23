@@ -1,0 +1,185 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/prominic/dominohelp
+#    - title: Blogs
+#      external_url: http://www.planetlotus.org
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+      
+    - title: APIs
+      folderitems:
+
+      - title: All @Functions A-Z
+        external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/H_7_FORMULAS_FUNCTION_REFERENCE.html
+        output: web
+     
+      - title: All @Commands A-Z
+        external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/H_8_FORMULAS_COMMAND_REFERENCE.html
+        output: web
+      
+      - title: Java/CORBA Classes A-Z  
+        external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/H_10_NOTES_CLASSES_ATOZ_JAVA.html
+        output: web
+      
+      - title: Lotuscript Classes A-Z
+        external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/H_4_LOTUSSCRIPT_NOTES_CLASSES_REFERENCE.html
+        output: web
+
+      - title: JNA - Java to C API
+        external_url: https://github.com/klehmann/domino-jna
+        output: web
+
+      - title: Lotuscript to C API
+        external_url: http://www.ls2capi.com
+        output: web
+
+
+    - title: Blogs
+      folderitems:
+
+      - title: PlanetLotus
+        external_url: http://www.planetlotus.org
+
+      - title: Collaboration Today
+        external_url: https://collaborationtoday.info/
+
+      - title: IBM Collab Solutions
+        external_url: https://www.ibm.com/blogs/collaboration-solutions/
+
+      - title: HCL Collab Workflow
+        external_url: http://www.cwpcollaboration.com/blogs
+
+      - title: Daniel Nashed
+        external_url: http://blog.nashcom.de
+
+      - title: Jesse Gallagher
+        external_url: https://frostillic.us
+
+      - title: Chris Miller
+        external_url: http://www.idonotes.com/IdoNotes/IdoNotes.nsf
+
+      - title: Detlev Poettgen
+        external_url: http://www.netzgoetter.net
+
+      - title: Frank van der Linden
+        external_url: http://elstarit.nl
+
+      - title: Hogne Bø Pettersen (elfworld)
+        external_url: https://domino.elfworld.org/author/elfworld/
+
+      - title: Johnny Oldenburger
+        external_url: https://xpagesandmore.blogspot.com/?view=classic
+
+      - title: Julian Robichaux
+        external_url: http://www.nsftools.com/blog/CurrentBlog.htm
+
+      - title: Karl-Henry Martinsson
+        external_url: http://blog.texasswede.com
+
+      - title: Kim Greene
+        external_url: http://www.dominodiva.com
+
+      - title: Mat Newman
+        external_url: http://www.matnewman.com
+
+      - title: Matteo Bisi
+        external_url: https://blog.msbiro.net
+ 
+      - title: Oliver Busse
+        external_url: https://oliverbusse.notesx.net
+
+      - title: Panagenda
+        external_url: https://www.panagenda.com/news-events/blog/
+
+      - title: Paul Withers
+        external_url: https://www.intec.co.uk/blog/ 
+
+      - title: Per Henrik Lausten
+        external_url: http://per.lausten.dk/blog/
+
+      - title: Philippe Riand
+        external_url: http://blog.riand.com
+
+      - title: Red Pill Now
+        external_url: https://www.redpillnow.com/blog/
+
+      - title: Richard Moy
+        external_url: http://www.dominointerface.com
+
+      - title: Teamstudio
+        external_url: https://www.teamstudio.com/blog
+
+      - title: Turtle Partnership 
+        external_url: https://turtleblog.info
+
+      - title:  Ulrich Krause
+        external_url: https://www.eknori.de
+
+      - title: Wannes Rams
+        external_url: https://www.ramsit.com/category/blog/
+
+    - title: Code
+      folderitems:   
+
+      - title: OpenNTF
+        external_url: https://www.openntf.org
+      - title: OpenNTF on GitHub
+        external_url: https://github.com/OpenNTF
+      - title: XPages.Info
+        external_url: http://www.xpages.info
+      - title: NSFTools Tips
+        external_url: http://www.nsftools.com/tips/
+      - title: Codestore
+        external_url: http://www.codestore.net  
+      - title: Sample Java DIIOP 
+        external_url: https://www-01.ibm.com/support/docview.wss?uid=swg21994330
+          
+
+    - title: Download
+      folderitems:   
+
+      - title: IBM Trials & Downloads
+        external_url: https://developer.ibm.com/collaboration/downloads-trials-code/
+      - title: Designer & Admin for Mac and Linux
+        external_url: http://domino4wine.com
+      - title: NoteMan field editor (a must have)
+        external_url: http://www.noteman.com
+      - title: Ytria ScanEZ
+        external_url: https://www.ytria.com/ezsuite/scanez
+      - title: VirtualBox
+        external_url: https://www.virtualbox.org
+      - title: Vagrant - Declare Dev Environment
+        external_url: https://www.vagrantup.com
+      - title: Discover Vagrant Boxes
+        external_url: https://app.vagrantup.com/boxes/search
+      - title: SikuliX UI Automation & Testing
+        external_url: http://sikulix.com
+
+
+
+    - title: Learn
+      folderitems:
+        - title: Get Started
+          url: /index.html
+
+        - title: What Makes Domino Special?
+          external_url: http://blog.nashcom.de/nashcomblog.nsf/dx/notes-domino-platform-what-is-notesdomino-and-what-is-special-about-it.htm
+
+        - title: Opinion on HCL buying Domino
+          external_url: https://www.teamstudio.com/blog/why-ibms-sale-of-lotus-notes-to-hcl-is-a-good-thing
+
+        - title: Ideas to improve Domino
+          external_url: https://domino.ideas.aha.io
+
+        - title: Plato in Illinois to Notes fun
+          external_url: https://www.slideshare.net/eknori/ibm-lotus-notes-from-plato-to-the-leading-groupware-platform
+
+        - title: Wikipedia
+          external_url: https://en.wikipedia.org/wiki/IBM_Notes

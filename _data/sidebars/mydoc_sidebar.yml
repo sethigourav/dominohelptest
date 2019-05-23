@@ -1,0 +1,605 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: domino help 
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+#    - title: Contribute Content
+#      url: /contribute.html
+#      output: web, pdf
+#      type: 
+
+
+  - title: Release Notes
+    output: web
+    folderitems:
+
+    - title: 10.0.1 - Domino Server
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSKTMJ_10.0.1/admin/whats_new_in_domino_10.0.1.html 
+      output: web
+
+    - title: 10.0.1 - Domino Designer 
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/whats_new/wpd_whatsnew10.0.1.html
+      output: web
+
+    - title: 10.0 - Domino Server 
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSKTMJ_10.0.1/admin/whats_new_in_domino_10.0.html
+      output: web
+      
+    - title:  10.0 - Domino Designer
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.0/whats_new/wpd_whatsnew.html
+      output: web
+      
+
+  - title: Designer 10.0.1 Docs
+    output: web
+    folderitems:
+
+    - title: Basic User Guide and Reference
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/domino_designer_basic_user_guide_and_reference.html
+      output: web
+
+    - title: XPages User Guide
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/user/ibm_domino_designer_xpages_user_guide.html
+      output: web
+
+    - title: XPages Reference
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/reference/r_wpdr_intro_c.html
+      output: web
+
+    - title: All @Functions A-Z
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/H_7_FORMULAS_FUNCTION_REFERENCE.html
+      output: web
+     
+    - title: All @Commands A-Z
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/H_8_FORMULAS_COMMAND_REFERENCE.html
+      output: web
+      
+    - title: Java/CORBA Classes A-Z  
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/H_10_NOTES_CLASSES_ATOZ_JAVA.html
+      output: web
+      
+    - title: Lotuscript Classes A-Z
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSVRGU_10.0.1/basic/H_4_LOTUSSCRIPT_NOTES_CLASSES_REFERENCE.html
+      output: web
+
+    - title: Domino App Dev Wiki (archive)
+      external_url: https://www-10.lotus.com/ldd/ddwiki.nsf/
+      output: web
+
+    - title: JNA - Java to C API
+      external_url: https://github.com/klehmann/domino-jna
+      output: web
+
+    - title: Lotuscript to C API
+      external_url: http://www.ls2capi.com
+      output: web
+
+
+  - title: Administrator 10.0.1 Docs
+    output: web
+    folderitems:
+
+    - title: Creating a Web Site Rule Doc
+      external_url: https://www.ibm.com/support/knowledgecenter/SSKTMJ_10.0.1/admin/conf_creatingawebsiteruledocument_t.html
+      output: web
+
+
+
+  - title: Get Help for Free
+    output: web
+    folderitems:
+
+    - title: OpenNTF Slack
+      external_url: https://slackin.openntf.org       
+      output: web
+      
+    - title: XPages on Stack Overflow
+      external_url: https://stackoverflow.com/questions/tagged/xpages
+      output: web    
+
+    - title: Domino on Stack Overflow
+      external_url: https://stackoverflow.com/questions/tagged/lotus-domino
+      output: web
+
+    - title: USENET Forums
+      external_url: https://groups.google.com/forum/?fromgroups&hl=en#!forumsearch/comp.$20groupware.lotus-notes
+      output: web
+
+    - title: LinkedIn Collaboration Group
+      external_url: https://www.linkedin.com/groups/37836/
+      output: web
+
+    - title: LinkedIn Certified Professionals
+      external_url: https://www.linkedin.com/groups/93927/
+      output: web
+
+    - title: LinkedIn Other Related
+      external_url: https://www.linkedin.com/search/results/groups/?keywords=lotus%20notes&origin=SWITCH_SEARCH_VERTICAL
+      output: web
+
+    - title: IBM Developer Answers
+      external_url: https://developer.ibm.com/answers/smartspace/collaboration/index.html
+      output: web
+
+      subfolders:
+      - title: Archived Notes.Net Forums
+        output: web
+        subfolderitems:
+
+        - title: XPages Forum
+          external_url: http://www-10.lotus.com/ldd/xpagesforum.nsf
+          output: web
+
+        - title: Domino 9 Forum
+          external_url: https://www-10.lotus.com/ldd/ndseforum.nsf
+          output: web
+
+        - title: Domino 8.5 Forum
+          external_url: http://www-10.lotus.com/ldd/nd85forum.nsf/BuildAllThreadedWeb?OpenView
+          output: web
+
+        - title: Domino 8 Forum 
+          external_url: http://www-10.lotus.com/ldd/nd8forum.nsf/BuildAllThreadedWeb?OpenView
+          output: web
+
+        - title: Domino 6 and 7 Forum
+          external_url: http://www-10.lotus.com/ldd/nd6forum.nsf
+          output: web
+
+  - title: IBM Support
+    output: web
+    folderitems:
+
+    - title: IBM Support Cases
+      external_url: https://www.ibm.com/mysupport/s/?language=en_US
+      output: web
+
+    - title: IBM Collab Support
+      external_url: https://www.ibm.com/support/home/product/C809125L20347R29/Collaboration_Solutions_support_(general)
+      output: web
+
+    - title: IBM Fix Central
+      external_url: https://www.ibm.com/support/fixcentral/?productGroup0=ibm/Lotus
+      output: web
+
+#    - title: Purchase / renew - CleanSlate
+#      external_url: https://www.cleanslatetg.com/ibm/
+#      output: web    
+
+    - title: Using Domino NSD Analyzer
+      external_url: https://www-10.lotus.com/ldd/dominowiki.nsf/dx/Using_the_LND_tool_to_analyze_IBM_Lotus_Notes_and_Domino_hangs_and_crashes
+      output: web
+
+    - title: Get Domino NSD Analyzer
+      external_url: http://www-01.ibm.com/support/docview.wss?uid=swg21272213
+      output: web
+
+    - title: How to re-install Notes client
+      external_url: https://www-01.ibm.com/support/docview.wss?uid=swg21245159
+      output: web
+
+    - title: Using Notes Install Cleanup Utility
+      external_url: https://www.ibm.com/support/knowledgecenter/en/SSKTMJ_9.0.1/admin/inst_nice_use_t.html 
+      output: web
+
+    - title: Get Notes Install Cleanup Utility
+      external_url: http://www-01.ibm.com/support/docview.wss?uid=swg21459714
+      output: web
+ 
+
+  - title: Online Courses
+    output: web
+    folderitems:
+
+    - title: The Learning Company
+      external_url: http://www.tlcc.com    
+      output: web   
+
+    - title: Udemy
+      external_url: https://www.udemy.com/topic/ibm-domino/
+      output: web
+
+    - title: IBM Tech School Webinars
+      external_url: https://www.ibm.com/collaboration/webinars
+      output: web
+
+
+  - title: Books
+    output: web
+    folderitems:
+
+    - title: Bob Balaban Domino & Java
+      external_url: https://www.amazon.com/Programming-Domino-4-6-Java-Balaban/dp/1558515836
+      output: web
+
+    - title: Domino Classic Web Development
+      external_url: https://www.amazon.com/IBM-Lotus-Domino-Application-Development/dp/1849682402
+      output: web  
+
+    - title: Inside LotusScript
+      external_url: https://www.amazon.com/Inside-LotusScript-Complete-Guide-Programming/dp/1884777481
+      output: web
+
+    - title: LotusScript for Dummies
+      external_url: https://www.amazon.com/Lotus-Script-Dummies-James-Meade/dp/156884638X
+      output: web
+
+    - title: Practical LotusScript
+      external_url: https://www.amazon.com/Practical-LotusScript-Anthony-Patton/dp/1884777767
+      output: web
+
+    - title: Survival Guide for Admins
+      external_url: https://www.amazon.com/Survival-Guide-Lotus-Domino-Administrators-ebook/dp/B001UQO3VA
+      output: web
+
+    - title: Teach Yourself LotusScript
+      external_url: https://www.amazon.com/Teach-Yourself-LotusScript-Notes-Domino/dp/1558285601
+      output: web
+
+    - title: Thinking in Java
+      external_url: https://www.amazon.com/Thinking-Java-4th-Bruce-Eckel/dp/0131872486
+      output: web
+ 
+    - title: Toolbox Tips
+      external_url: https://www.amazon.com/Lotus-Notes-Developers-Toolbox-Successful/dp/0132214482
+      output: web
+
+    - title: XPages Command Guide
+      external_url: https://www.amazon.com/XPages-Portable-Command-Guide-Application-ebook/dp/B0073DQPZ6
+      output: web
+  
+    - title: XPages Extension Libray
+      external_url: https://www.amazon.com/XPages-Extension-Library-Step-Step-ebook/dp/B0083JCEY0
+      output: web
+
+
+  - title: Redbooks & Redpapers
+    output: web
+    folderitems:
+
+    - title: All Domino related
+      external_url: http://www.redbooks.ibm.com/redbooks.nsf/searchsite?SearchView&query=%22domino%22
+      output: web 
+
+    - title: Basic Developer's Handbook
+      external_url: http://www.redbooks.ibm.com/abstracts/sg246854.html?Open
+      output: web 
+
+    - title: Implementing LEI 6 PDF
+      external_url: http://www.redbooks.ibm.com/redbooks/pdfs/sg246067.pdf
+      output: web
+
+    - title: Performance Optimization
+      external_url: http://secure.martinscott.com/mscblog.nsf/dx/AppPerformance.pdf/$file/AppPerformance.pdf
+      output: web
+
+
+  - title: Certification Tests
+    output: web
+    folderitems:
+
+    - title: Sys Admin 9.0
+      external_url: https://www.ibm.com/certify/cert?id=14003306               
+      output: web    
+
+    - title: App Dev 9.0
+      external_url: https://www.ibm.com/certify/cert?id=14003106
+      output: web
+
+    - title: Adv Sys Admin 9.0
+      external_url: https://www.ibm.com/certify/cert?id=14003406           
+      output: web  
+
+    - title: Adv App Dev 9.0
+      external_url: https://www.ibm.com/certify/cert?id=14003206
+      output: web
+
+
+  - title: Certification Help
+    output: web
+    folderitems:
+
+    - title: PassGuide's Sys Admin 9.0
+      external_url: https://www.passguide.com/IBM-Certified-System-Administrator-Notes-and-Domino-9-0.html               
+      output: web
+
+    - title: PassGuide's App Dev 9.0
+      external_url: https://www.passguide.com/IBM-Certified-Application-Developer-Notes-and-Domino-9-0.html                
+      output: web
+
+    - title: PassGuide's Adv Sys Admin 9.0
+      external_url: https://www.passguide.com/IBM-Certified-Advanced-System-Administrator-Notes-and-Domino-9-0.html
+      output: web
+
+    - title: PassGuide's Adv App Dev 9.0
+      external_url: https://www.passguide.com/IBM-Certified-Advanced-Application-Developer-Notes-and-Domino-9-0.html
+      output: web
+
+
+
+  - title: Hire Consultants
+    output: web
+    folderitems:
+
+    - title: Penumbra Group
+      external_url: http://www.penumbragroup.com                    
+      output: web
+
+    - title: I Know Some Guys LLC
+      external_url: https://www.iknowsomeguys.com/
+      output: web
+
+    - title: NashCom
+      external_url: http://www.nashcom.de
+      output: web
+
+    - title: MartinScott
+      external_url: http://martinscott.com
+      output: web
+
+    - title: mindu
+      external_url: https://www.bleedyellow.com/web/web.nsf/id/pa_mindoo_home_en.html
+      output: web
+
+    - title: Developi - Serdar Basegmez
+      external_url: http://www.developi.co.uk
+      output: web
+
+    - title: Workflow Studios
+      external_url: http://workflowstudios.com
+      output: web
+
+    - title: Xceed - Theo Heselmans
+      external_url: http://www.xceed.be
+      output: web
+
+    - title: JustForDomino Companies
+      external_url: http://www.justfordomino.com/products.nsf/CompanyList
+      output: web
+
+
+  - title: IBM Champions
+    output: web
+    folderitems:
+
+    - title: Wikipedia Champion List
+      external_url: https://en.wikipedia.org/wiki/IBM_Champions                    
+      output: web
+
+    - title: Gabriella Davis
+      external_url: https://www.linkedin.com/in/gabturtle/
+      output: web
+
+    - title: Theo Heselmans
+      external_url: https://www.linkedin.com/in/theoheselmans/
+      output: web
+
+    - title: Julian Robichaux
+      external_url: https://www.linkedin.com/in/julianrobichaux/
+      output: web 
+
+    - title: Paul Withers
+      external_url: https://www.linkedin.com/in/paulswithers/
+      output: web
+
+    - title: Roberto Mazzoni
+      external_url: https://www.linkedin.com/in/mazzoniroberto/
+      output: web
+
+
+  - title: Conferences & Meetups
+    output: web
+    folderitems:
+
+    - title: MWLUG / Collabsphere
+      external_url: http://www.collabsphere.org/                  
+      output: web
+
+    - title: Engage
+      external_url: https://engage.ug
+      output: web
+
+    - title: DNUG
+      external_url: https://dnug.de
+      output: web
+
+    - title: IBM Think
+      external_url: https://www.ibm.com/events/think/
+      output: web
+
+  - title: Tools - Development
+    output: web
+    folderitems:
+
+    - title: CIAO! version control
+      external_url: https://www.teamstudio.com/ciao
+      output: web
+
+    - title: NoteMan
+      external_url: http://www.noteman.com
+      output: web
+
+    - title: Ytria
+      external_url: https://www.ytria.com/ezsuite
+      output: web
+
+  - title: Tools - Marketing & CRM
+    output: web
+    folderitems:
+
+    - title: InteliDoc
+      external_url: http://www.intelicom.si/en/
+      output: web
+
+    - title: Riva CRM Integration
+      external_url: https://www.rivacrmintegration.com/screenshots/ibm-lotus-notes/
+      output: web
+
+    - title: Visit Intel
+      external_url: https://visitintel.us
+      output: web
+  
+    - title: VMobile
+      external_url: http://www.vigilus.net/website/notes,-mobile-and-web.html
+      output: web
+
+  - title: Tools - Modernization
+    output: web
+    folderitems:
+
+    - title: Application Insights
+      external_url: https://www.panagenda.com/products/applicationinsights/
+      output: web
+
+    - title: Aveedo
+      external_url: https://en.aveedo.com
+      output: web
+
+    - title: DOCOVA
+      external_url: https://www.docova.com
+      output: web
+
+    - title: TeamWorkr
+      external_url: https://www.teamworkr.com
+      output: web
+
+  - title: Tools - Reporting & SQL
+    output: web
+    folderitems:
+
+    - title: Aspose MS Office API
+      external_url: https://products.aspose.com/cells/java
+      output: web
+
+    - title: Casahl Replic-Action
+      external_url: https://www.casahl.com/dart-product-suite/replic-action/
+      output: web
+
+    - title: Darwino
+      external_url: https://www.darwino.com
+      output: web
+
+    - title: DomSQL / JDBC Access
+      external_url: https://www.openntf.org/main.nsf/project.xsp?r=project/JDBC%20Access%20for%20IBM%20Lotus%20Domino
+
+    - title: LEI - Enterprise Integrator
+      external_url: https://www.ibm.com/us-en/marketplace/ibm-enterprise-integrator-for-domino
+      output: web
+
+    - title: POI 4 XPages
+      external_url: https://poi4xpages.openntf.org
+      output: web
+
+    - title: Structure4Notes
+      external_url: http://structure4.com
+      output: web
+
+    - title: Swing PDF Converter
+      external_url: https://www.swingsoftware.com/pdf-converter/overview
+      output: web
+
+
+  - title: Tools - Security
+    output: web
+    folderitems:
+
+    - title: DominoProtect
+      external_url: http://www.bcchub.com/domino-protect/
+      output: web
+
+    - title: PortalGuard
+      external_url: https://www.portalguard.com/domino.html
+      output: web
+
+
+  - title: Tools - WebSphere J2EE
+    output: web
+    folderitems:
+
+    - title: CrossWorlds
+      external_url: https://www.slideshare.net/DanieleVistalli/introducing-crossworlds-for-ibm-domino
+      output: web
+
+    - title: OpenLiberty
+      external_url: https://github.com/OpenNTF/openliberty-domino
+      output: web
+
+    - title: XPages to Java EE series
+      external_url: https://frostillic.us/blog/posts/7C5363F5AFC4DC5B852583B0005809B0
+      output: web
+
+
+
+  - title: Move to Cloud / Hosting
+    output: web
+    folderitems:
+
+    - title: Prominic.NET
+      external_url: https://www.Prominic.NET                    
+      output: web
+
+    - title: IBM Domino Apps on Cloud
+      external_url: https://www.ibm.com/us-en/marketplace/domino-applications-on-cloud
+      output: web
+
+    - title: BlueSky.co.uk
+      external_url: https://www.bluesky.co.uk/ibm-notes-domino/
+      output: web
+
+    - title: DominoDeveloper.net
+      external_url: https://dominodeveloper.net
+      output: web
+
+    - title: WWoW.com
+      external_url: http://wwow.com/
+      output: web
+
+  - title: Add New content
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /addcontent
+      output: web, pdf
+      type: homepage
+
+
+      
+
+
+
+#links to old Domino help files R5 - R8?
+#how to contribute updates to the site
+#gartner - marketing
+#C API
+#top OpenNTF projects
+#who's who - additional blogger list?
+#commerical list of companies who make > X% of revenue from Domino or similar metric to determine focus
+#notes in 9 - video tutorial links?
+#showcases of businesses / sites built on Domino
+
